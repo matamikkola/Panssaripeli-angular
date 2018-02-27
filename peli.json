@@ -1,0 +1,152 @@
+{
+"taustaKuvanNimi": "tausta.jpg",
+"voittoKuvanNimi": "voitto.jpg",
+"tappioKuvanNimi": "tappio.jpg",
+"kuvienKansio":"panssarikuvat",
+"kortit": [
+    {
+      "kuvanNimi": "kv1.jpg",
+      "nimi": "Klim Vorosilov 1",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 90,
+        "Tykki (mm)": 76.2,
+  	    "Nopeus (km/h)": 35,
+  	    "Paino (tn)": 45,
+  	    "Moottorin teho (kW)": 600,
+        "Valmistettu (kpl)": 5219
+      }
+    },
+    {
+      "kuvanNimi": "tiikeri.jpg",
+      "nimi": "PzKfw VI / Tiikeri",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 120,
+        "Tykki (mm)": 88,
+        "Nopeus (km/h)": 45.5,
+  	    "Paino (tn)": 54,
+  	    "Moottorin teho (kW)": 700,
+        "Valmistettu (kpl)": 1347
+      }
+    },
+    {
+      "kuvanNimi": "pz3.jpg",
+      "nimi": "PzKfw III Ausf J",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 50,
+        "Tykki (mm)": 50,
+        "Nopeus (km/h)": 40,
+        "Paino (tn)": 23,
+        "Moottorin teho (kW)": 296,
+        "Valmistettu (kpl)": 5774
+      }
+    },
+    {
+      "kuvanNimi": "t3485.jpg",
+      "nimi": "T-34/85",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 75,
+        "Tykki (mm)": 85,
+        "Nopeus (km/h)": 55,
+        "Paino (tn)": 35,
+        "Moottorin teho (kW)": 500,
+        "Valmistettu (kpl)": 17600
+      }
+    },
+    {
+      "kuvanNimi": "hetzer.jpg",
+      "nimi": "Jagdpanzer 38 / Hetzer",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 60,
+        "Tykki (mm)": 75,
+  	    "Nopeus (km/h)": 42,
+  	    "Paino (tn)": 15.75,
+  	    "Moottorin teho (kW)": 158,
+        "Valmistettu (kpl)": 2827
+      }
+    },
+    {
+      "kuvanNimi": "sherman.jpg",
+      "nimi": "M4 Sherman",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 75,
+        "Tykki (mm)": 76,
+    	  "Nopeus (km/h)": 48,
+    	  "Paino (tn)": 38.1,
+    	  "Moottorin teho (kW)": 400,
+        "Valmistettu (kpl)": 49234
+      }
+    },
+    {
+      "kuvanNimi": "panther.jpg",
+      "nimi": "PzKfw V / Panther",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 120,
+        "Tykki (mm)": 75,
+    	  "Nopeus (km/h)": 55,
+    	  "Paino (tn)": 44.8,
+    	  "Moottorin teho (kW)": 690,
+        "Valmistettu (kpl)": 6000
+      }
+    },
+    {
+      "kuvanNimi": "pz4.jpg",
+      "nimi": "PzKfw IV Ausf H",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 80,
+        "Tykki (mm)": 75,
+    	  "Nopeus (km/h)": 42,
+    	  "Paino (tn)": 25,
+    	  "Moottorin teho (kW)": 296,
+        "Valmistettu (kpl)": 8553
+      }
+    },
+    {
+      "kuvanNimi": "churchill.jpg",
+      "nimi": "Churchill Mark IV",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 102,
+        "Tykki (mm)": 75,
+        "Nopeus (km/h)": 24,
+        "Paino (tn)": 39.1,
+        "Moottorin teho (kW)": 350,
+        "Valmistettu (kpl)": 7368
+      }
+    },
+    {
+      "kuvanNimi": "crusaider.jpg",
+      "nimi": "Cruiser Mk VI, Crusaider",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 51,
+        "Tykki (mm)": 57,
+        "Nopeus (km/h)": 42,
+        "Paino (tn)": 19.1,
+        "Moottorin teho (kW)": 340,
+        "Valmistettu (kpl)": 5300
+      }
+    },
+    {
+      "kuvanNimi": "m3lee.jpg",
+      "nimi": "M3 Lee",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 51,
+        "Tykki (mm)": 75,
+        "Nopeus (km/h)": 42,
+        "Paino (tn)": 27,
+        "Moottorin teho (kW)": 400,
+        "Valmistettu (kpl)": 6258
+      }
+    },
+    {
+      "kuvanNimi": "valentine.jpg",
+      "nimi": "Valentine II",
+      "ominaisuudet":{
+        "Panssarointi (mm)": 65,
+        "Tykki (mm)": 75,
+        "Nopeus (km/h)": 24,
+        "Paino (tn)": 16,
+        "Moottorin teho (kW)": 210,
+        "Valmistettu (kpl)":8275
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+    <script src="peli.js"></script>
+    <meta charset="utf-8">
+    <title>peli-angular</title>
+    <link rel="stylesheet" href="peli.css">
+  </head>
+  <body ng-app="gameModule">
+    <div ng-controller="gameController">
+      <h1>Tervetuloa pelaamaan!!!</h1>
+      <button ng-show="naytaAloitaNappula" id="aloitaNappula" ng-click="aloita()"> Aloita </button>
+      <br> <br>
+      <table id="omaKortti" border="1" ng-show="naytaKortti">
+        <tr>
+          <th colspan="2"> Oma kortti: {{omaNimi}}</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img ng-src="./{{polku}}/{{omaKuva}}"/>
+          </td>
+        </tr>
+        <tr ng-repeat ="(key,value) in omaKortti">
+          <td>
+            {{key}}
+          </td>
+          <td ng-class="{'hiiriPaalla': onkoHiiriPaalla($index)}" ng-mouseover="paalla($index, true)"
+          ng-mouseleave="paalla($index, false)" ng-click="pelaaKierros($index, true)">
+            {{value}}
+          </td>
+        </tr>
+      </table>
+
+      <div id="kortteja" ng-show="naytaKortti" style="width:300px;">
+        <h3>
+          {{koneenValinta}}
+          <br>
+          {{kierroksenTulos.teksti}}
+        </h3>
+        <button id="jatkaNappula" ng-show="naytaJatkaNappula" ng-click="uusiKierros(kierroksenTulos.tulos)" > Jatka </button>
+        <br> <br>
+        Itsellä kortteja: {{omatKortit.length}}
+        <br>
+        Koneella kortteja: {{koneenKortit.length}}
+        <br>
+      </div>
+
+      <table id="koneenKortti" border="1" ng-show="naytaKortti">
+        <tr>
+          <th colspan="2"> Koneen kortti: {{koneenNimi}}</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <img ng-src="./{{polku}}/{{koneenKuva}}"/>
+          </td>
+        </tr>
+        <tr ng-repeat ="(key,value) in koneenKortti">
+          <td>
+            {{key}}
+          </td>
+          <td>
+            {{value}}
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </body>
+</html>
